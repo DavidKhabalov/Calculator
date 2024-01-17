@@ -1,0 +1,48 @@
+body {
+	background-color: #cde9ff;
+}
+
+.calculator-container {
+	background-color: #f7f8fb;
+	color: #29a8ff;
+}
+
+.btn {
+	background-color: #fafbfd;
+	border: 2px solid #fff;
+}
+
+.operator {
+	background-color: #ade1ff;
+	color: #109dff;
+}
+
+.ac,
+.delete {
+	background-color: #fff;
+	border: 2px solid #fff;
+	color: #a1a1a2;
+}
+
+.equally {
+	background-color: #19acff;
+	color: #b2daff;
+}
+
+.changeTheme {
+	z-index: 2;
+	background-color: #ade1ff;
+	box-shadow: 0px 0px 13px 0px #8fd5ff;
+}
+
+.icon-bg {
+	background-color: #19acff;
+}
+
+.curr-display {
+	color: #424242;
+}
+
+.prev-display {
+	color: #808080;
+}

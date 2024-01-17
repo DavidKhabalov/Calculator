@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Калькулятор</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" id="link" href="/css/light-theme.css" />
+	</head>
+	<body>
+		<main class="main">
+			<div class="circle"></div>
+			<div class="wrapper container">
+				<div class="calculator-container">
+					<div class="output">
+						<div id="prev-display" class="prev-display"></div>
+						<div id="curr-display" class="curr-display"></div>
+					</div>
+					<div class="changeTheme">
+						<div id="icon-bg" class="icon-bg icon-bg-initial"></div>
+						<button id="themeBtn" class="sun">
+							<img class="sun-img" src="/img/sun.svg" alt="" />
+							<img class="moon-img" src="/img/moon.svg" alt="" />
+						</button>
+					</div>
+					<div class="btns">
+						<div class="group-1">
+							<button class="btn ac">Ac</button>
+							<button class="btn clear">←</button>
+							<button class="btn operator">/</button>
+							<button class="btn number">7</button>
+							<button class="btn number">8</button>
+							<button class="btn number">9</button>
+							<button class="btn number">4</button>
+							<button class="btn number">5</button>
+							<button class="btn number">6</button>
+							<button class="btn number">1</button>
+							<button class="btn number">2</button>
+							<button class="btn number">3</button>
+							<button class="btn number zero">0</button>
+							<button class="btn operator">,</button>
+						</div>
+						<div class="group-2">
+							<button class="btn operator">*</button>
+							<button class="btn operator">-</button>
+							<button class="btn operator addition">+</button>
+							<button class="btn equally">=</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

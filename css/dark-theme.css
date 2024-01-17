@@ -1,0 +1,46 @@
+body {
+	background-color: #233667;
+}
+
+.calculator-container {
+	background-color: #17181a;
+	color: #29a8ff;
+}
+
+.btn {
+	background-color: #303136;
+	box-shadow: 0px 2px 5px #141414;
+}
+
+.operator {
+	background-color: #005db2;
+}
+
+.ac,
+.delete {
+	background-color: #606161;
+	color: #a1a1a2;
+}
+
+.equally {
+	background-color: #1991ff;
+	color: #b2daff;
+}
+
+.changeTheme {
+	z-index: 2;
+	background-color: #005db2;
+	box-shadow: 0px 0px 13px 0px #005487;
+}
+
+.icon-bg {
+	background-color: #1991ff;
+}
+
+.curr-display {
+	color: #fff;
+}
+
+.prev-display {
+	color: #808080;
+}
